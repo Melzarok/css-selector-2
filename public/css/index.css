@@ -1,1 +1,33 @@
+.lesson-four-task-one button.btn:hover {
+    color: red;
+    background-color: yellow;
+}
 
+.lesson-four-task-two a.link:hover {
+    background-color: green;
+}
+
+.lesson-four-task-three a:visited {
+    color:yellow;
+}
+
+#sidebar a:link {
+    color:red;
+}
+
+.lesson-four-task-five button.btn:active {
+    background-color: rgb(101, 101, 218);
+}
+
+.lesson-four-task-six button.btn:focus {
+    color:orange;
+    background-color: orange;
+}
+
+#target:target {
+    color:white;
+    background-color: green;
+    transform: rotateX(15deg);
+    margin: 36px auto 0 auto;
+    transition: background-color 2s ease-in 0s;
+}
